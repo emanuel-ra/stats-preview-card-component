@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./dist/app.css">
+</head>
+<body>
+
+  <div class="main mt-24 md:mt-0">
+    
+    <div class="card">
+
+      <div class="card-left">
+        
+        <h1 class="text-white font-bold text-center md:text-left">Get <span class="text-skin-soft-violet">insights</span> that help your business grow.</h1>
+        
+        <p class="text-skin-slightly-transparent-white-main-paragraph text-center md:text-left font-[15px]">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+          experience, and overall efficiency.</p>
+        
+        <div class="w-full text-white text-center md:text-left flex flex-col justify-center items-center space-y-2 md:space-y-0 md:flex-row md:justify-between">
+          <span class="block flex flex-col">
+            <span class="text-2xl font-bold">10k+</span>
+            <span class="text-skin-slightly-transparent-white-main-paragraph">companies</span>
+          </span>
+
+          <span class="block flex flex-col">
+            <span class="text-2xl font-bold">314</span>
+            <span class="text-skin-slightly-transparent-white-main-paragraph">templates</span>
+          </span>
+
+          <span class="block flex flex-col">
+            <span class="text-2xl font-bold">12m+</span>
+            <span class="text-skin-slightly-transparent-white-main-paragraph">queries</span>
+          </span>
+        </div>
+
+      </div>
+
+      <div class="card-right">
+        <picture>
+          <source media="(min-width:375px)" srcset="./images/image-header-mobile.jpg">
+          <img src="./images/image-header-desktop.jpg" alt="People" class="w-full h-full rounded-t-xl lg:rounded-t-none lg:rounded-r-xl">
+        </picture>
+        <div class="w-full h-full bg-skin-soft-violet opacity-30 absolute top-0 rounded-t-xl lg:rounded-t-none lg:rounded-r-xl"></div>
+      </div>
+
+    </div>
+    
+    <div class="w-full text-center text-white">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#" class="text-skin-soft-violet">Tomas Emanuel Ramirez Abarca</a>.
+    </div>
+    
+  </div>
+
+ 
+  
+  
+</body>
+</html>
