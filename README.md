@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [netlify](https://cozy-madeleine-ca5a7c.netlify.app/)
-- Live Site URL: [github.io](https://emanuel-ra.github.io/stats-preview-card-component/)
+- [netlify](https://cozy-madeleine-ca5a7c.netlify.app/)
+- [github.io](https://emanuel-ra.github.io/stats-preview-card-component/)
 
 ## My process
 
