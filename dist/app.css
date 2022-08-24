@@ -608,8 +608,8 @@ h1 {
 
 .card-left > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
-  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
+  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
 .card-left {
@@ -629,6 +629,7 @@ h1 {
   .card-left {
     border-top-left-radius: 0.75rem;
     border-bottom-left-radius: 0.75rem;
+    border-bottom-right-radius: 0px;
   }
 }
 
@@ -637,18 +638,15 @@ h1 {
   width: 100%;
   border-top-left-radius: 0.75rem;
   border-top-right-radius: 0.75rem;
+  background-color: var(--soft-violet);
 }
 
 @media (min-width: 768px) {
   .card-right {
     width: 50%;
-  }
-}
-
-@media (min-width: 1024px) {
-  .card-right {
     border-top-right-radius: 0.75rem;
     border-bottom-right-radius: 0.75rem;
+    border-top-left-radius: 0px;
   }
 }
 
@@ -678,6 +676,10 @@ h1 {
 
 .w-full {
   width: 100%;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .grow {
@@ -711,6 +713,11 @@ h1 {
   background-color: var(--soft-violet);
 }
 
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .text-center {
   text-align: center;
 }
@@ -737,8 +744,16 @@ h1 {
   color: var(--slightly-transparent-white-main-paragraph);
 }
 
+.opacity-75 {
+  opacity: 0.75;
+}
+
 .opacity-30 {
   opacity: 0.3;
+}
+
+.mix-blend-multiply {
+  mix-blend-mode: multiply;
 }
 
 @media (min-width: 768px) {
@@ -762,10 +777,6 @@ h1 {
 
   .md\:text-left {
     text-align: left;
-  }
-
-  .md\:text-justify {
-    text-align: justify;
   }
 }
 

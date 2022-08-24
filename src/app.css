@@ -25,12 +25,12 @@
         @apply w-full h-screen flex flex-col justify-center items-center shadow-xl
     }
     .card{
-        @apply p-5 w-11/12 lg:w-[90vh] flex flex-col flex-col-reverse md:flex-row md:p-0
+        @apply p-5 w-11/12 lg:w-[90vh] flex flex-col flex-col-reverse md:flex-row md:p-0 
     }
     .card-left{
-        @apply w-full md:w-1/2 bg-skin-dark-desaturated-blue p-9 space-y-10 rounded-b-xl lg:rounded-l-xl
+        @apply w-full md:w-1/2 p-9 space-y-5 rounded-b-xl lg:rounded-br-none lg:rounded-l-xl bg-skin-dark-desaturated-blue
     }
     .card-right{
-       @apply w-full md:w-1/2 rounded-t-xl lg:rounded-r-xl relative
+       @apply w-full md:w-1/2 rounded-t-xl md:rounded-tl-none md:rounded-r-xl relative bg-skin-soft-violet
     }
 }
